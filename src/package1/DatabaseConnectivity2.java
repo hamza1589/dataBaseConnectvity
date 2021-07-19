@@ -20,7 +20,7 @@ public class DatabaseConnectivity2 {
         //3306-->port number of the db
         String url = "jdbc:mysql://localhost:3306/" + dbName;
 
-
+//hamza
             Class.forName("com.mysql.cj.jdbc.Driver");
 
         Connection connection = DriverManager.getConnection(url, username, password);
